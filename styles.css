@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #a99696;
+  background: #131313;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -200,7 +200,7 @@
 
 /* Main Content CSS */
 .main {
-  background-color: #0fea2d;
+  background-color: #f2ff00;
 }
 
 .main__container {
@@ -359,6 +359,7 @@
 .services {
   background: #131313;
   display: grid;
+  grid-template-rows: auto;
   flex-direction: column;
   justify-content: center;
   position: relative;
@@ -369,6 +370,7 @@
 .services h1 {
   background-color: #ff8177; 
   font-size: 5.5rem;
+  text-align: center;
 }
 
 .services__container {
@@ -389,25 +391,15 @@
 }
 
 .services__card:nth-child(4) {
-  background-image: linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0) 0%,
-      rgba(17, 17, 17, 0.9) 100%
-    ),
-    url('/images/profilePic.jpg');
+  background-image: url('/images/profilePic.jpg');
 }
 
 .services__card h2 {
-  position: absolute;
+  position: relative;
   top: 350px;
   left: 30px;
 }
 
-.services__card:hover {
-  transform: scale(1.075);
-  transition: 0.2s ease-in;
-  cursor: pointer;
-}
 
 @media screen and (max-width: 960px) {
   .services {
@@ -437,7 +429,6 @@
 /* Footer CSS */
 .footer__container {
   background-color: #ff0000;
-  padding: 5rem 0;
   display: grid;
   flex-direction: column;
   justify-content: center;
@@ -448,25 +439,24 @@
 .footer__links {
   width: 100%;
   max-width: 1000px;
-  display: flex;
+  display: center;
   justify-content: center;
 }
 
 .footer__link--wrapper {
-  display: flex;
+  display: center;
 }
 
 .footer__link--items {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 16px;
-  text-align: left;
-  width: 160px;
+  display: block;
+  margin: 5% 0;
+  text-align: center;
+  width: 360px;
   box-sizing: border-box;
 }
 
 .footer__link--items h2 {
+  margin-top: 16px;
   margin-bottom: 16px;
 }
 
