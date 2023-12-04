@@ -232,6 +232,7 @@
 
 .main__img--container {
   text-align: center;
+  color: #fff;
 }
 
 #main__img {
@@ -328,7 +329,11 @@
   color: #fff;
 }
 
-.services__card:nth-child(4) {
+.services__card:nth-child(1) {
+  background-image: url('/images/McKenna.jpg');
+}
+
+.services__card:nth-child(5) {
   background-image: url('/images/profilePic.jpg');
 }
 
