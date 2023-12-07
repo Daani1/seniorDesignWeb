@@ -200,7 +200,7 @@
 
 /* Main Content CSS */
 .main {
-  background-color: #f2ff00;
+  background-color: #131313;
 }
 
 .main__container {
@@ -325,6 +325,7 @@
   border-radius: 4px;
   background-image: url('/images/Portrait_Placeholder.png');
   background-size: cover;
+  background-position: center;
   position: relative;
   color: #fff;
 }
