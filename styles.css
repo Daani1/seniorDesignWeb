@@ -223,6 +223,11 @@
   width: 100%;
 }
 
+.main__content iframe {
+  position: relative;
+  height: 25;
+}
+
 .main__content h1 {
   font-size: 4rem;
   background-color: #131313;
@@ -332,6 +337,14 @@
 
 .services__card:nth-child(1) {
   background-image: url('/images/McKenna.jpg');
+}
+
+.services__card:nth-child(2) {
+  background-image: url('/images/Shreeya.jpg');
+}
+
+.services__card:nth-child(3) {
+  background-image: url('/images/bruno.jpg');
 }
 
 .services__card:nth-child(5) {
