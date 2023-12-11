@@ -23,3 +23,24 @@ function renderJoke(data) {
 }
 
 // https://www.shecodes.io/athena/10692-what-is-an-api-key-and-how-to-use-it-in-javascript ;using an API key
+
+// const AWS = require('aws-sdk');
+
+// // Configure AWS with your credentials
+// AWS.config.update({
+//   accessKeyId: 'AKIAQEMMQQCFVUQE3N6U',
+//   secretAccessKey: '35AGWsJ15wora11L3yUW0CrpcYV6nIy0dxQnrQmL',
+//   region: 'us-east-1' // Specify the region of your DynamoDB instance
+// });
+
+// // Create DynamoDB service object
+// const dynamodb = new AWS.DynamoDB();
+
+// // Example: Listing tables in DynamoDB
+// dynamodb.listTables({}, (err, data) => {
+//   if (err) {
+//     console.error('Error listing tables:', err);
+//   } else {
+//     console.log('Tables:', data.TableNames);
+//   }
+// });
